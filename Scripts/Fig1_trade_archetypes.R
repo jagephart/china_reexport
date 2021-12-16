@@ -1,4 +1,4 @@
-# Example trade architype figure
+# Example trade archetype figure
 library(tidyverse)
 library(ggplot2)
 library(ggrepel)
@@ -33,10 +33,6 @@ df_all <- df_all %>%
     reexport_upper = ifelse(Import_lw_1000t>Export_lw_1000t, 
                             Export_lw_1000t, 
                             Import_lw_1000t))
-# Min re-export rate
-sum(df_all$reexport_lower)/sum(df_all$Import_lw_1000t)
-# Max re-export rate
-sum(df_all$reexport_upper)/sum(df_all$Import_lw_1000t)
 
 # Leave processing import share NA's as NA's (by turning 0's back into NAs)
 df_all$processing_import_share[df_all$processing_import_share == 0] <- NA
@@ -71,7 +67,7 @@ ggplot(df_all, aes(x = consumer_destination_indicator, y = production_origin_ind
   theme(legend.position="bottom", legend.box="vertical")
 dev.off()
 
-# Architypes table
+# Archetypes table
 architypes_table <- df_all %>%
   mutate(Architype = case_when(
     (production_origin_indicator < 50 & consumer_destination_indicator < 50) ~ "Domestic-oriented production", 
@@ -80,4 +76,4 @@ architypes_table <- df_all %>%
     (production_origin_indicator > 50 & consumer_destination_indicator > 50) ~ "Re-exports" 
   )) %>%
   arrange(Architype)
-write.csv(architypes_table, "Outputs/architypes_table_20210621.csv")
+write.csv(architypes_table, "Outputs/TableS4_architypes.csv")
