@@ -6,7 +6,7 @@ library(wesanderson)
 library(ggpubr)
 library(ggthemes)
 
-df <- read.csv("china_top15_20211007.csv")
+df <- read.csv("Data/china_top15_20211007.csv")
 
 df <- df %>%
   # Calculate apparent consumption
