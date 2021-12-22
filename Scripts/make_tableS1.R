@@ -8,10 +8,11 @@ source("Scripts/clean_data.R")
 #                         Estimates of distant-water fishing (Table S1)
 #----------------------------------------------------------------------------------------------------#
 ## (1) Estimates based on FAO's standard definition
-production.dwf <- production %>% filter(Production_source=="Capture production"& (Fishing_area !="Asia - Inland waters" &
+production.dwf <- production %>% 
+  filter(Production_source=="Capture production"& (Fishing_area !="Asia - Inland waters" &
                                                                                     Fishing_area !="Pacific, Northwest"))
 production.dwf <- melt(production.dwf[,c(3,7:76)],id.vars = c("Name"))
-production.dwf$Year <- as.numeric(substr(production.dwf$variable,2,5))
+production.dwf$Year <- as.numeric(substr(production.dwf$variable,3,6))
 colnames(production.dwf)[colnames(production.dwf)=="value"] <- "Production"
 production.dwf <- merge(production.dwf, match_production,by="Name",all.x=T)
 production.dwf <- production.dwf %>% 

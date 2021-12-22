@@ -28,4 +28,3 @@ table_S4.1$consumer_dest_indicator[table_S4.1$consumer_dest_indicator>100] <- 10
 write.csv(table_S4.1, "Outputs/TableS4.csv", row.names = FALSE)
 
 ## Note: The estimates in the article are done with excel, which may lead to slight discrepancies due to rounding
-
