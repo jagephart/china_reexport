@@ -1,0 +1,141 @@
+﻿HS 6-digit,Species,Product form,Conversion factor
+30367,Alaska pollock,"Whole fish, frozen",1.61 
+30475,Alaska pollock,"Fish fillets, frozen",2.95 
+30494,Alaska pollock,"Fish meat, frozen",3.09 
+30242,Anchovy,"Whole fish, fresh or chilled",1.00 
+30359,Anchovy,"Whole fish, frozen",1.08 
+30563,Anchovy,"Fish, salted or in brine",1.33 
+160416,Anchovy,"Fish, prepared or preserved",2.00 
+30214,Atlantic salmon,"Whole fish, fresh or chilled",1.14 
+30313,Atlantic salmon,"Whole fish, frozen",1.16 
+30441,Atlantic salmon,"Fish fillets, fresh or chilled",1.60 
+30256,Blue whiting,"Whole fish, fresh or chilled",1.00 
+30368,Blue whiting,"Whole fish, frozen",1.20 
+30193,Carp,Live fish,1.00 
+30273,Carp,"Whole fish, fresh or chilled",1.00 
+30325,Carp,"Whole fish, frozen",1.00 
+30272,Catfish,"Whole fish, fresh or chilled",1.12 
+30324,Catfish,"Whole fish, frozen",1.12 
+30432,Catfish,"Fish fillets, fresh or chilled",2.30 
+30462,Catfish,"Fish fillets, frozen",2.30 
+30771,"Clams, cockles, and arkshells","Molluscs, live, fresh, or chilled",1.00 
+30772,"Clams, cockles, and arkshells","Molluscs, frozen",5.28 
+30779,"Clams, cockles, and arkshells","Molluscs, dried, salted or brine, or smoked",1.36 
+160556,"Clams, cockles, and arkshells","Molluscs, prepared or preserved",1.36 
+30253,Coalfish,"Whole fish, fresh or chilled",1.19 
+30365,Coalfish,"Whole fish, frozen",1.51 
+30473,Coalfish,"Fish fillets, frozen",2.55 
+30251,Cod,"Whole fish, fresh or chilled",1.31 
+30363,Cod,"Whole fish, frozen",1.50 
+30471,Cod,"Fish fillets, frozen",2.85 
+30551,Cod,"Fish, dried",5.09 
+30562,Cod,"Fish, salted or in brine",1.92 
+30614,Crab,"Crustaceans, frozen",2.58 
+30633,Crab,"Crustaceans, live, fresh, or chilled",1.00 
+30693,Crab,"Crustaceans, smoked",1.00 
+160510,Crab,"Crustaceans, prepared or preserved",1.80 
+3061919,Crayfish,"Crustaceans, frozen",1.99 
+16054019,Crayfish,"Crustaceans, prepared or preserved",2.40 
+3028920,Croakers,"Whole fish, fresh or chilled",1.09 
+3038920,Croakers,"Whole fish, frozen",1.45 
+30742,Cuttlefish and squid,"Molluscs, live, fresh, or chilled",1.35 
+30743,Cuttlefish and squid,"Molluscs, frozen",1.37 
+30749,Cuttlefish and squid,"Molluscs, dried, salted or brine, or smoked",1.25 
+160554,Cuttlefish and squid,"Molluscs, prepared or preserved",1.36 
+30192,Eels,Live fish,1.00 
+30274,Eels,"Whole fish, fresh or chilled",1.00 
+30326,Eels,"Whole fish, frozen",1.00 
+160417,Eels,"Fish, prepared or preserved",1.64 
+160419,"Fish, nei","Fish, prepared or preserved",1.89 
+30221,Flatfish,"Whole fish, fresh or chilled",1.18 
+30222,Flatfish,"Whole fish, fresh or chilled",1.07 
+30223,Flatfish,"Whole fish, fresh or chilled",1.04 
+30224,Flatfish,"Whole fish, fresh or chilled",1.10 
+30229,Flatfish,"Whole fish, fresh or chilled",1.07 
+30331,Flatfish,"Whole fish, frozen",1.30 
+30332,Flatfish,"Whole fish, frozen",1.07 
+30333,Flatfish,"Whole fish, frozen",1.05 
+30334,Flatfish,"Whole fish, frozen",1.10 
+30339,Flatfish,"Whole fish, frozen",1.17 
+30443,Flatfish,"Fish fillets, fresh or chilled",2.77 
+30483,Flatfish,"Fish fillets, frozen",2.74 
+30252,Haddock,"Whole fish, fresh or chilled",1.14 
+30364,Haddock,"Whole fish, frozen",1.40 
+30472,Haddock,"Fish fillets, frozen",3.06 
+3028910,Hairtails,"Whole fish, fresh or chilled",1.09 
+3038910,Hairtails,"Whole fish, frozen",1.45 
+30241,Herring,"Whole fish, fresh or chilled",1.00 
+30351,Herring,"Whole fish, frozen",1.00 
+30391,Herring,"Whole fish, frozen",0.00 
+30486,Herring,"Fish fillets, frozen",2.05 
+30542,Herring,"Fish, smoked",1.81 
+30561,Herring,"Fish, salted or in brine",1.46 
+160412,Herring,"Fish, prepared or preserved",1.43 
+30612,Lobsters,"Crustaceans, frozen",1.85 
+30632,Lobsters,"Crustaceans, live, fresh, or chilled",1.00 
+30692,Lobsters,"Crustaceans, smoked",1.95 
+160530,Lobsters,"Crustaceans, prepared or preserved",2.61 
+30244,Mackerel,"Whole fish, fresh or chilled",1.00 
+30354,Mackerel,"Whole fish, frozen",1.00 
+160415,Mackerel,"Fish, prepared or preserved",1.79 
+30731,Mussels,"Molluscs, live, fresh, or chilled",1.00 
+30732,Mussels,"Molluscs, frozen",4.50 
+30739,Mussels,"Molluscs, dried, salted or brine, or smoked",4.50 
+160553,Mussels,"Molluscs, prepared or preserved",2.61 
+30329,Nile perch and snakeheads,"Whole fish, frozen",1.12 
+30279,Nile perch and snakeheads,"Whole fish, fresh or chilled",1.12 
+30433,Nile perch and snakeheads,"Fish fillets, fresh or chilled",2.50 
+30463,Nile perch and snakeheads,"Fish fillets, frozen",2.50 
+30751,Octopus,"Molluscs, live, fresh, or chilled",1.23 
+30752,Octopus,"Molluscs, frozen",1.28 
+30759,Octopus,"Molluscs, dried, salted or brine, or smoked",1.28 
+160555,Octopus,"Molluscs, prepared or preserved",1.36 
+30711,Oysters,"Molluscs, live, fresh, or chilled",1.00 
+30712,Oysters,"Molluscs, frozen",1.00 
+30719,Oysters,"Molluscs, dried, salted or brine, or smoked",1.00 
+160551,Oysters,"Molluscs, prepared or preserved",1.36 
+30213,Pacific salmon,"Whole fish, fresh or chilled",1.14 
+30311,Pacific salmon,"Whole fish, frozen",1.30 
+30312,Pacific salmon,"Whole fish, frozen",1.30 
+30481,Pacific salmon,"Fish fillets, frozen",1.80 
+30541,Pacific salmon,"Fish, smoked",2.10 
+160411,Pacific salmon,"Fish, prepared or preserved",1.52 
+30611,Rock lobster and crawfish,"Crustaceans, frozen",1.95 
+30631,Rock lobster and crawfish,"Crustaceans, live, fresh, or chilled",1.00 
+30691,Rock lobster and crawfish,"Crustaceans, smoked",1.00 
+30243,"Sardines, sardinellas, brisling or sprats","Whole fish, fresh or chilled",0.77 
+30353,"Sardines, sardinellas, brisling or sprats","Whole fish, frozen",1.20 
+160413,"Sardines, sardinellas, brisling or sprats","Fish, prepared or preserved",2.02 
+30721,Scallops,"Crustaceans, live, fresh, or chilled",1.00 
+30722,Scallops,"Molluscs, frozen",6.36 
+30729,Scallops,"Molluscs, dried, salted or brine, or smoked",6.22 
+160552,Scallops,"Molluscs, prepared or preserved",6.83 
+30616,Shrimps and prawns,"Crustaceans, frozen",1.12 
+30617,Shrimps and prawns,"Crustaceans, frozen",1.16 
+30635,Shrimps and prawns,"Crustaceans, live, fresh, or chilled",1.15 
+30636,Shrimps and prawns,"Crustaceans, live, fresh, or chilled",1.15 
+30695,Shrimps and prawns,"Crustaceans, smoked",1.15 
+160521,Shrimps and prawns,"Crustaceans, prepared or preserved",1.66 
+160529,Shrimps and prawns,"Crustaceans, prepared or preserved",1.66 
+30271,Tilapia,"Whole fish, fresh or chilled",1.00 
+30323,Tilapia,"Whole fish, frozen",1.12 
+30431,Tilapia,"Fish fillets, fresh or chilled",2.48 
+30461,Tilapia,"Fish fillets, frozen",2.86 
+160419,Tilapia,"Fish, prepared or preserved",1.89 
+30194,Tuna,Live fish,1.00 
+30231,Tuna,"Whole fish, fresh or chilled",1.08 
+30232,Tuna,"Whole fish, fresh or chilled",1.13 
+30233,Tuna,"Whole fish, fresh or chilled",1.00 
+30234,Tuna,"Whole fish, fresh or chilled",1.10 
+30235,Tuna,"Whole fish, fresh or chilled",1.16 
+30236,Tuna,"Whole fish, fresh or chilled",1.15 
+30239,Tuna,"Whole fish, fresh or chilled",1.15 
+30341,Tuna,"Whole fish, frozen",1.15 
+30342,Tuna,"Whole fish, frozen",1.17 
+30343,Tuna,"Whole fish, frozen",1.13 
+30344,Tuna,"Whole fish, frozen",1.05 
+30345,Tuna,"Whole fish, frozen",1.11 
+30346,Tuna,"Whole fish, frozen",1.15 
+30349,Tuna,"Whole fish, frozen",1.10 
+30487,Tuna,"Fish fillets, frozen",2.50 
+160414,Tuna,"Fish, prepared or preserved",2.17 
