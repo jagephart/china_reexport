@@ -1,5 +1,5 @@
 # TITLE: make_figureS1
-# AUTHOR: Bixaun Yang
+# AUTHOR: Bixuan Yang
 
 # Load packages
 library(tidyverse)

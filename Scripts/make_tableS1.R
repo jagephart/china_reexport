@@ -1,5 +1,5 @@
 # TITLE: make_tableS1
-# AUTHOR: Bixaun Yang
+# AUTHOR: Bixuan Yang
 
 # Load cleaned data
 source("Scripts/clean_data.R")
