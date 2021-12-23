@@ -51,9 +51,8 @@ table_S4$Label[table_S4$Species=="Tuna"] <- "Tuna"
 
 
 pdf("Outputs/Figure1.pdf", width = 8, height = 5)
-options(scipen=10000)
 ggplot(table_S4, aes(x = consumer_dest_indicator, y = production_orig_indicator)) +
-  geom_point(aes(size = apparent_consumption, alpha = 0.9)) +
+  geom_point(aes(size = apparent_consumption/1000, alpha = 0.9)) + # change from 1000 t to 1000000 t units
   scale_x_continuous(breaks = c(0, 25, 50, 75, 100), limits = c(-5, 105)) +
   scale_y_continuous(breaks = c(0, 25, 50, 75, 100), limits = c(-5, 105)) +
   scale_size_continuous(range = c(3, 8)) + # change the size of the points
@@ -66,7 +65,7 @@ ggplot(table_S4, aes(x = consumer_dest_indicator, y = production_orig_indicator)
   geom_text(data = architypes, aes(x = x, y = y, label = label), size = 3.5) +
   labs(x = "Consumer destination indicator",
        y = "Production origin indicator",
-       size = "Apparent consumption (1000t live weight)",
+       size = "Apparent consumption (million t live weight)",
        alpha = element_blank()) +
   guides(size = "legend", color = "legend", alpha = "none") +
   theme_minimal() + 
