@@ -10,7 +10,7 @@ library(ggrepel)
 source("Scripts/clean_data.R")
 
 # Load data from Table S4
-table_S4 <- read.csv("Outputs/table_S4.csv")
+table_S4 <- read.csv("Outputs/tableS4.csv")
 
 #----------------------------------------------------------------------------------------------------#
 #                                       Figure 1
@@ -22,7 +22,7 @@ architypes <- data.frame(x = c(5, 5, 95, 95),
                                    "Export-oriented production",
                                    "Re-exports"))
 ## Plot production origin versus consumer destination, with points scaled by apparent consumption
-# Jitter points to avoid overlapping
+# Manually jitter points to avoid overlapping
 table_S4$consumer_dest_indicator[table_S4$Species=="Cod"] <- 99.5
 table_S4$consumer_dest_indicator[table_S4$Species=="Haddock"] <- 100.5
 table_S4$consumer_dest_indicator[table_S4$Species=="Tuna"] <- 99.2
@@ -51,6 +51,7 @@ table_S4$Label[table_S4$Species=="Tuna"] <- "Tuna"
 
 
 pdf("Outputs/Figure1.pdf", width = 8, height = 5)
+options(scipen=10000)
 ggplot(table_S4, aes(x = consumer_dest_indicator, y = production_orig_indicator)) +
   geom_point(aes(size = apparent_consumption, alpha = 0.9)) +
   scale_x_continuous(breaks = c(0, 25, 50, 75, 100), limits = c(-5, 105)) +
