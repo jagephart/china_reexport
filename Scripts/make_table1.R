@@ -1,11 +1,13 @@
 # TITLE: make_table1
 # AUTHOR: Bixuan Yang
 
+library(tidyverse)
+
 # Load cleaned data
 source("Scripts/clean_data.R")
 
 # Load data from Table S4
-table_S4 <- read.csv("Outputs/TableS4.csv")
+table_S4 <- read.csv("Outputs/TableS4_raw.csv")
 
 #----------------------------------------------------------------------------------------------------#
 #                                        Table 1

@@ -1,6 +1,7 @@
 # TITLE: make_tableS4
 # AUTHOR: Bixuan Yang
 
+library(tidyverse)
 # Load cleaned data
 source("Scripts/clean_data.R")
 
@@ -26,5 +27,5 @@ table_S4.1$apparent_consumption[table_S4.1$apparent_consumption<0] <- 0 ## Repla
 table_S4.1$consumer_dest_indicator[table_S4.1$consumer_dest_indicator>100] <- 100 ## Replace any indicator that exceeds 100 with 100
 
 write.csv(table_S4.1, "Outputs/TableS4.csv", row.names = FALSE)
-
+write.csv(table_S4, "Outputs/TableS4_raw.csv", row.names = FALSE) 
 ## Note: The estimates in the article are done with excel, which may lead to slight discrepancies due to rounding
